@@ -28,6 +28,8 @@ img{
 
 ul{
     list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 a{
@@ -39,16 +41,16 @@ a{
     display: flex;
 }
 
-.txt-brand{
-    font-size: 10px;
-}
-
 /*TEXT*/
 .txt-article{
     font-size: 15px;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.txt-brand{
+    font-size: 10px;
 }
 
 .txt-price{
@@ -59,6 +61,18 @@ a{
 .txt-price > span{
     color: #69617B;
     text-decoration: line-through;
+}
+
+.txt-industry{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt-info{
+    color: #FFFFFF;
+    font-size: 10px;
+    margin-right: 5px;
 }
 
 /*BADGE*/
@@ -149,7 +163,7 @@ header{
     flex-basis: calc(100% / 3);
 }
 
-
+/*FAVOURITE*/
 
 .favourite:hover::after{
     color: #FF0000;
@@ -158,7 +172,6 @@ header{
     right: 10px;
     background-color: #FFFFFF;
     content: '\2665';
-    
 }
 
 .art-levis:hover::after{
@@ -172,6 +185,7 @@ header{
     content: '';
 }
 
+/*CARD HOVER*/
 .art-guess:hover::after{
     position: absolute;
     top: 0;
@@ -226,3 +240,22 @@ header{
     background-image: url(../img/5b.webp);
     content: '';
 }
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #1A1A1A;
+    justify-content: center;
+}
+
+.foot-container{
+    width: 900px;
+    height: 80px;
+}
+
+.info-col{
+    margin-top: 20px;
+    flex-basis: calc(100% / 2);
+}
+

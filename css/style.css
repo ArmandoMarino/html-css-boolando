@@ -181,6 +181,7 @@ header{
     content: '\2665';
 }
 
+/*CARD HOVER*/
 .art-levis:hover::after{
     position: absolute;
     top: 0;
@@ -192,7 +193,6 @@ header{
     content: '';
 }
 
-/*CARD HOVER*/
 .art-guess:hover::after{
     position: absolute;
     top: 0;

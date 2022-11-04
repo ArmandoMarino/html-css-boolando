@@ -24,6 +24,7 @@ img{
     max-width: 900px;
     margin: 100px auto;
 }
+
 .flex{
     display: flex;
 }
@@ -47,6 +48,16 @@ img{
     text-decoration: line-through;
 }
 
+.icn-nav{
+    color: #ffff;
+}
+
+/*POSITION*/
+.p-relative{
+    position: relative;
+}
+
+
 /*HEADER*/
 header{
     min-height: 80px;
@@ -56,22 +67,28 @@ header{
 
 .nav-container{
     width: 900px;
-    min-height: 80px;
+    height: 80px;
+    align-items: center;
     justify-content: space-between;
 }
 
 .nav-col{
     height: 80px;
+    flex-basis: calc(100% / 3);
+    align-items: center;
+    gap: 10px;
 }
 
-.nav-col > span{
+.nav-col > .gender{
     color: #ffff;
     font-size: 15px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .logo-header{
-    height: 40px;
+    height: 30px;
+    right: 25%;
 }
 
 

@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 
+/*GENERICS*/
+body{
+    font-family: sans-serif;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*UTILITY*/
+.container{
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+.raw{
+    display: flex;
+    gap: 10px;
+}
+
+.col{
+    min-height: 50px;
+    border: 1px solid black;
+    flex-basis: calc(100% / 3);
+}

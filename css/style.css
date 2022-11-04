@@ -24,13 +24,58 @@ img{
     max-width: 900px;
     margin: 100px auto;
 }
+.flex{
+    display: flex;
+}
 
+.txt-brand{
+    font-size: 10px;
+}
+
+.txt-article{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt-price{
+    font-size: 10px;
+    color: #FF0000;
+}
+
+.txt-price > span{
+    color: #69617B;
+    text-decoration: line-through;
+}
 
 /*HEADER*/
 header{
     min-height: 80px;
     background-color: #ff6900;
+    justify-content: space-around;
 }
+
+.nav-container{
+    width: 900px;
+    min-height: 80px;
+    justify-content: space-between;
+}
+
+.nav-col{
+    height: 80px;
+}
+
+.nav-col > span{
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.logo-header{
+    height: 40px;
+}
+
+
+/*CARDS*/
 
 .card{
     position: relative;

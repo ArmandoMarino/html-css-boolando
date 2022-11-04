@@ -25,6 +25,15 @@ img{
     margin: 100px auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .flex{
     display: flex;
 }
@@ -46,10 +55,6 @@ img{
 .txt-price > span{
     color: #69617B;
     text-decoration: line-through;
-}
-
-.icn-nav{
-    color: #ffff;
 }
 
 /*POSITION*/
@@ -74,16 +79,17 @@ header{
 
 .nav-col{
     height: 80px;
+    width: 50px;
     flex-basis: calc(100% / 3);
     align-items: center;
     gap: 10px;
 }
 
-.nav-col > .gender{
-    color: #ffff;
+.gender{
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
+    gap: 10px;
 }
 
 .logo-header{
@@ -91,6 +97,10 @@ header{
     right: 25%;
 }
 
+.icn-nav{
+    gap: 10px;
+    align-items: flex-start;
+}
 
 /*CARDS*/
 
@@ -129,7 +139,27 @@ header{
     display: block;
 }
 
-.card:hover::after{
+.favourite{
+    font-size: 30px;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    right: 0;
+    top: 0;
+}
+
+.favourite:hover::after{
+    color: #FF0000;
+    font-size: 30px;
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 5px 10px;
+    right: 0;
+    top: 0;
+    content: '';
+}
+
+.art-levis:hover::after{
     position: absolute;
     top: 0;
     left: 0;
@@ -137,5 +167,27 @@ header{
     bottom: 0;
     background-size: cover;
     background-image: url(../img/1b.webp);
+    content: '';
+}
+
+.art-guess:hover::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-image: url(../img/2b.webp);
+    content: '';
+}
+
+.art-come:hover::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-image: url(../img/3b.webp);
     content: '';
 }

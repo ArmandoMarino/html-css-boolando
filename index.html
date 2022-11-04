@@ -11,47 +11,63 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!--HEADER-->
     <header class="flex">
         <div class="nav-container flex">
             <div class="nav-col flex">
-                <a class="gender" href="#">Donna</a>
-                <a class="gender" href="#">Uomo</a>
-                <a class="gender" href="#">Bambini</a>
+                <ul class="flex gender">
+                    <li><a href="#">Uomo</a></li>
+                    <li><a href="#">Donna</a></li>
+                    <li><a href="#">Bambino</a></li>
+                </ul>
             </div>
-            <div class="nav-col"></div>
+            <div class="nav-col"><img class="logo-header" src="img/boolean-logo.png" alt=""></div>
             <div class="nav-col flex">
-                <a href="#"><i class="fa-regular fa-user"></i></a>
-                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <ul class="flex icn-nav">
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                </ul>
             </div>
         </div>
         
     </header>
 
     <main>
+        <!--RAW ARTICLES-->
         <section class="container">
             <div class="raw">
                 <div class="col">
-                    <div class="card">
+                    <div class="card art-levis">
                         <img src="img/1.webp" alt="Levis">
                         <span class="sale red">50%</span>
                         <span class="sale green">Sostenibilità</span>
+                        <div class="favourite">&hearts;</div>
                     </div>
                     <p class="txt-brand">Levi's</p>
                     <p class="txt-article">RELAXED FIT TEE UNISEX</p>
                     <p class="txt-price">14,99 € <span>29,99 €</span></p>
                 </div>
+
                 <div class="col">
-                    <div class="card">
+                    <div class="card art-guess">
                         <img src="img/2.webp" alt="Roses">
                         <span class="sale red">30%</span>
                     </div>
+                    <p class="txt-brand">Guess</p>
+                    <p class="txt-article">ROSES TEE</p>
+                    <p class="txt-price">20,99 € <span>29,99 €</span></p>
                 </div>
+
                 <div class="col">
-                    <div class="card">
+                    <div class="card art-come">
                         <img src="img/3.webp" alt="Come Zucchero Filato">
                         <span class="sale red">50%</span>
                     </div>
+                    <p class="txt-brand">Come Zucchero Filato</p>
+                    <p class="txt-article">VOGLIA DI COLORI PASTELLO</p>
+                    <p class="txt-price">129,99 € <span>184,99 €</span></p>
                 </div>
             </div>
         </section>

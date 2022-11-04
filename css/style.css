@@ -25,6 +25,17 @@ img{
     margin: 100px auto;
 }
 
+
+/*HEADER*/
+header{
+    min-height: 80px;
+    background-color: #ff6900;
+}
+
+.card{
+    position: relative;
+}
+
 .raw{
     display: flex;
     gap: 10px;
@@ -34,4 +45,23 @@ img{
     min-height: 50px;
     border: 1px solid black;
     flex-basis: calc(100% / 3);
+}
+
+.sale{
+    font-size: 10px;
+    color: #ffff;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.sale.red{
+    background-color: #FF0000;
+}
+
+.sale.green{
+    background-color: #008000;
+    position: absolute;
+    left: 45px;
+    display: block;
 }

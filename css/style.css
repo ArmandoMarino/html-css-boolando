@@ -8,6 +8,7 @@
 /*GENERICS*/
 body{
     font-family: sans-serif;
+    margin-top: 80px;
 }
 
 .border{
@@ -70,6 +71,7 @@ a{
 }
 
 .txt-info{
+    height: 20px;
     color: #FFFFFF;
     font-size: 10px;
     margin-right: 5px;
@@ -109,9 +111,14 @@ a{
 
 /*HEADER*/
 header{
-    min-height: 80px;
+    height: 80px;
+    width: 100%;
     background-color: #ff6900;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .nav-container{
@@ -257,5 +264,7 @@ footer{
 .info-col{
     margin-top: 20px;
     flex-basis: calc(100% / 2);
+    justify-content: flex-end;
+    
 }
 

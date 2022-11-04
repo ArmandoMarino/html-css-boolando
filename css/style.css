@@ -114,6 +114,7 @@ header{
     color: #ffff;
     padding: 5px 10px;
     position: absolute;
+    z-index: 1;
     bottom: 20px;
 }
 
@@ -126,4 +127,15 @@ header{
     position: absolute;
     left: 45px;
     display: block;
+}
+
+.card:hover::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-image: url(../img/1b.webp);
+    content: '';
 }
